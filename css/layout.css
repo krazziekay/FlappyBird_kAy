@@ -1,0 +1,78 @@
+body {
+	width: 100%;
+}
+
+#main {
+	width: 800px;
+	height: 600px;
+	position: relative;
+	margin: 0 auto;
+	/*background-color: #FFFFFF;*/
+	overflow: hidden;
+}
+
+.top {
+	height: 60px;
+	background-color: #131b47;
+	width: 100%;
+	color: #FFFFFF;
+	z-index: 30;
+	position: absolute;
+	padding: 10px 10px 0px 10px;	
+}
+
+#main-wrapper {
+	width: 800px;
+	height: 600px;
+	/*position: relative;*/
+	background-image: url('../images/background.png') ;
+	background-repeat: repeat-y;
+	background-size: 800px 600px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.obstacles {
+	background-image: url('../images/obstacle1.png');	
+	width: 100px;
+	position: absolute;
+	z-index: 20;
+}
+#over {
+	position: absolute;
+	top: 50%;
+	left: 43%;
+	color: white;
+	z-index: 3;
+}
+
+.button {
+	float: right;
+	width: 10%;
+	color: #FFFFFF;
+	background-color: #673AB7;
+	border: none;
+	padding: 7px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+.button:hover {
+	cursor: pointer;
+	border: 1px solid #FFFFFF;
+}
+
+#bird {
+	/*background-image: url('../images/bird.gif');*/
+	background-image: url('../images/bird.png');
+	background-size: 30px 30px;
+	width: 30px;
+	height: 30px;
+	bottom:45%;	
+	left: 5%;
+	position:absolute;
+	z-index: 10;
+}
+.showscore {
+	width: 70%;
+	float: left;
+}

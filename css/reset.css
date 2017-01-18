@@ -1,0 +1,36 @@
+
+* { 
+	padding: 0px; 
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+
+.clrfix:before, .clrfix:after {  
+	content: "";  
+	display: table; 
+} 
+
+.clrfix:after {  
+	clear: both; } 
+
+.clrfix {  zoom: 1; /* IE6&7 */ }
+
+.inline{
+	display: inline;
+	padding-right: 10px;
+}
+
+.center {
+	text-align: center;
+	vertical-align: center;
+}
+
+.small {
+	font-size: smaller;
+}
+
+.no-data {
+	color: #a9a9a9!important;
+	padding-right: 0px!important;
+}
